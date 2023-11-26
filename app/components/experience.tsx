@@ -18,7 +18,7 @@ function Experience() {
       <SectionHeading>My Experience</SectionHeading>
       <VerticalTimeline lineColor="#e5e7eb">
         {experiencesData.map((item, index) => (
-          <React.Fragment key={index}>
+          <React.Fragment key={index} >
             <VerticalTimelineElement
               visible={inView}
               contentStyle={{
@@ -27,7 +27,6 @@ function Experience() {
                 border: "1px solid rgb(0 0 0 / 0.1)",
                 borderRadius: "1rem",
                 textAlign: "left",
-                padding: "1.3rem 2rem",
                 WebkitBoxShadow:"2px 2px 20px #bebebe ",
               }}
               contentArrowStyle={{
